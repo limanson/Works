@@ -42,7 +42,7 @@
 						$window.on('resize', function() {
 
 							var wh = $window.height() * 0.60,
-								bh = $banner.height();
+								bh = $banner.height() * 0.50;
 
 							$banner.css('height', 'auto');
 
