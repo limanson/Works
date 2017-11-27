@@ -1,0 +1,11 @@
+﻿using UnityEngine;
+
+public class MyClassDerivedFromMonoBehaviour: MonoBehaviour {
+
+    string str = "Script from txt!"
+    void Start()
+    {
+        print(str);
+    }
+
+}
